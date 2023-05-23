@@ -1,0 +1,138 @@
+@import url("./color.scss");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+body {
+  width: 1640px;
+  height: 408px;
+}
+body header {
+  width: 1221px;
+  height: 743px;
+}
+body header .img-logo {
+  background-image: url("../travel-layout/img/logo.svg");
+  width: 41px;
+  height: 41px;
+}
+body header .section-one {
+  position: sticky;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+body header .section-one .right-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body header .section-one .right-header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body header .section-one .right-header nav p {
+  margin-right: 34px;
+  font: 400 16px "Inter";
+  color: #B8BECD;
+}
+body header .section-one .header-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body header .section-one .header-btn .btn-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font: 500 15px "Inter";
+  color: #FB8F1D;
+  width: 132px;
+  height: 44px;
+  border: 1px solid #FB8F1D;
+  border-radius: 8px;
+}
+body header .section-one .header-btn .btn-Register {
+  margin: 0 0 0 30px;
+  font: 500 15px "Inter";
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 44px;
+  width: 132px;
+  background: #FB8F1D;
+  border-radius: 8px;
+}
+
+.section-two {
+  margin-top: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.section-two .img-header {
+  background-image: url("../travel-layout/img/thousand-01 1.svg");
+  width: 506px;
+  height: 483px;
+}
+.section-two h1 {
+  width: 356;
+  height: 160px;
+  font: 700 64px "Playfair Display";
+  color: #202336;
+}
+.section-two div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section-two .form h3 {
+  font: 600 22px "Inter";
+  color: #202336;
+}
+.section-two .form .btn-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font: 700 17px "Inter";
+  width: 180px;
+  height: 52px;
+  background: #FB8F1D;
+  border-radius: 8px;
+}
+.section-two .form nav {
+  margin: 71px 0 51px 0;
+  display: -ms-grid;
+  display: grid;
+}
