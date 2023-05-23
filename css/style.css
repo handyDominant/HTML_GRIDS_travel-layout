@@ -19,6 +19,7 @@ body {
   height: 408px;
 }
 body header {
+  margin-top: 20px;
   width: 1221px;
   height: 743px;
 }
@@ -108,8 +109,14 @@ body header .section-one .header-btn .btn-Register:active {
   background: #FFFFFF;
   color: #FB8F1D;
 }
+body header .section-one .header-btn .btn-Register::content {
+  background: #FFFFFF;
+  color: #FB8F1D;
+}
 
 .section-two {
+  width: 1120px;
+  margin: auto;
   margin-top: 113px;
   display: -webkit-box;
   display: -ms-flexbox;

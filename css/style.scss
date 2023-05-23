@@ -23,6 +23,7 @@ body {
     height: 408px;
 
     header {
+        margin-top: 20px;
         width: 1221px;
         height: 743px;
         
@@ -115,7 +116,12 @@ body {
 
                     background: #FFFFFF;
                     color: #FB8F1D;
-                    
+
+                }
+                .btn-Register::content{
+
+                    background: #FFFFFF;
+                    color: #FB8F1D;
 
                 }
             }
@@ -126,6 +132,9 @@ body {
 
 
 .section-two {
+    width: 1120px;
+    margin: auto;
+    
     margin-top: 113px;
     display: flex;
     justify-content: space-around;
