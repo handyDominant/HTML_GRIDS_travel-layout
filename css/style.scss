@@ -9,6 +9,14 @@
     font-style: normal;
 }
 
+/* 
+$click = { //button characteristics //храниться кнопка, ее характеристики
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
 body {
 
     width: 1640px;
@@ -47,29 +55,43 @@ body {
                         font: 400 16px'Inter';
                         color: #B8BECD;
                     }
+
+                    p:hover{
+                            text-decoration: underline;
+
+                        }    
+                    
                 }
             }
 
             .header-btn{
                 display: flex;
-                justify-content: space-between;
                 
-                
+
 
                 .btn-login{
                     display: flex;
                     align-items: center;
+                    justify-content: center;
+                    
                 
-
                     font: 500 15px'Inter';
                     color: #FB8F1D;
 
                     width: 132px;
-                    height:44px;
+                    height: 44px;
     
 
                     border: 1px solid #FB8F1D;
                     border-radius: 8px;
+                }
+
+                .btn-login:active{
+
+                    background: #FB8F1D;
+                    color: #FFFFFF;
+                    
+
                 }
 
                 .btn-Register {
@@ -79,12 +101,22 @@ body {
 
                     display: flex;
                     align-items: center;
+                    justify-content: center;
 
                     height: 44px;
                     width: 132px;
 
                     background: #FB8F1D;
-                    border-radius: 8px;       
+                    border-radius: 8px; 
+                    border: 1px solid #FB8F1D;      
+                }
+
+                .btn-Register:active{
+
+                    background: #FFFFFF;
+                    color: #FB8F1D;
+                    
+
                 }
             }
         }   
@@ -129,6 +161,7 @@ body {
     .form .btn-form {
         display: flex;
         align-items: center;
+        justify-content: center;
         font: 700 17px 'Inter';
 
         width: 180px;
@@ -137,7 +170,15 @@ body {
         background: #FB8F1D;
         border-radius: 8px;
         
+        
     }
+
+    .btn-form:active{
+
+        background: #FFFFFF;
+        color: #202336;
+        border: 1px solid #FB8F1D;
+    }   
 
     .form nav {
         margin: 71px 0 51px 0;
