@@ -1,4 +1,4 @@
-@import url("./color.scss");
+@import url("../fonts/font.scss");
 
 * {
 
@@ -18,28 +18,30 @@ $click = { //button characteristics //храниться кнопка, ее ха
 */
 
 body {
-
+    height: 2000px;
     width: 1640px;
-    height: 408px;
 
     header {
-        margin-top: 20px;
         width: 1221px;
-        height: 743px;
         
 
-
-
         .img-logo {
-            background-image: url('../img/logo.svg'); // Site logo is stored here // Тут первая картинка(Слево)
+            background-image: url('../img-header/logo.svg'); // Site logo is stored here // Тут первая картинка(Слево)
             width: 41px;
             height: 41px;
         }
 
         .section-one {
-            position: sticky;
+            margin-top: -100px;
+            position: fixed;
             display: flex;
+            align-items: center;
             justify-content: space-around;
+            width: 1200px;
+            height: 50px;
+            
+            
+            
 
             .right-header {
 
@@ -118,12 +120,6 @@ body {
                     color: #FB8F1D;
 
                 }
-                .btn-Register::content{
-
-                    background: #FFFFFF;
-                    color: #FB8F1D;
-
-                }
             }
         }   
     }    
@@ -132,7 +128,7 @@ body {
 
 
 .section-two {
-    width: 1120px;
+    
     margin: auto;
     
     margin-top: 113px;
@@ -140,16 +136,16 @@ body {
     justify-content: space-around;
 
     .img-header{
-        background-image: url('../img/thousand-01\ 1.svg'); // Second picture (on the right) // Вторая картинка (Справа)
+        background-image: url('../img-header/thousand-01\ 1.svg'); // Second picture (on the right) // Вторая картинка (Справа)
         width: 506px;
         height: 483px;
     }    
 
     h1 {
-        width:356;
-        height: 160px;
-
         font: 700 64px 'Playfair Display';
+
+        width: 356;
+        height: 160px;
     
         color: #202336;
     }
@@ -178,6 +174,7 @@ body {
 
         background: #FB8F1D;
         border-radius: 8px;
+        color: #FFFFFF;
         
         
     }
@@ -185,7 +182,7 @@ body {
     .btn-form:active{
 
         background: #FFFFFF;
-        color: #202336;
+        color: #FB8F1D;
         border: 1px solid #FB8F1D;
     }   
 

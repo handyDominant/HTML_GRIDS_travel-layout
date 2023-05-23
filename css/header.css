@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("./color.scss");
+@import url("../fonts/font.scss");
 * {
   margin: 0;
   padding: 0;
@@ -15,26 +15,30 @@ $click = { //button characteristics //храниться кнопка, ее ха
 }
 */
 body {
+  height: 2000px;
   width: 1640px;
-  height: 408px;
 }
 body header {
-  margin-top: 20px;
   width: 1221px;
-  height: 743px;
 }
 body header .img-logo {
-  background-image: url("../img/logo.svg");
+  background-image: url("../img-header/logo.svg");
   width: 41px;
   height: 41px;
 }
 body header .section-one {
-  position: sticky;
+  margin-top: -100px;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  width: 1200px;
+  height: 50px;
 }
 body header .section-one .right-header {
   display: -webkit-box;
@@ -109,13 +113,8 @@ body header .section-one .header-btn .btn-Register:active {
   background: #FFFFFF;
   color: #FB8F1D;
 }
-body header .section-one .header-btn .btn-Register::content {
-  background: #FFFFFF;
-  color: #FB8F1D;
-}
 
 .section-two {
-  width: 1120px;
   margin: auto;
   margin-top: 113px;
   display: -webkit-box;
@@ -125,14 +124,14 @@ body header .section-one .header-btn .btn-Register::content {
       justify-content: space-around;
 }
 .section-two .img-header {
-  background-image: url("../img/thousand-01 1.svg");
+  background-image: url("../img-header/thousand-01 1.svg");
   width: 506px;
   height: 483px;
 }
 .section-two h1 {
+  font: 700 64px "Playfair Display";
   width: 356;
   height: 160px;
-  font: 700 64px "Playfair Display";
   color: #202336;
 }
 .section-two div {
@@ -163,10 +162,11 @@ body header .section-one .header-btn .btn-Register::content {
   height: 52px;
   background: #FB8F1D;
   border-radius: 8px;
+  color: #FFFFFF;
 }
 .section-two .btn-form:active {
   background: #FFFFFF;
-  color: #202336;
+  color: #FB8F1D;
   border: 1px solid #FB8F1D;
 }
 .section-two .form nav {

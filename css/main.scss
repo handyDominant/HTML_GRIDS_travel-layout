@@ -1,0 +1,80 @@
+@import url("../fonts/font.scss");
+
+
+
+* {
+
+    //The site is written in English and Русский. My git: @handyDominant;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+main {
+    margin-top: 103px;
+    width: 1206px;
+    height: 534px;
+
+    section {
+        display: flex;
+
+        .img-main {
+            background-image: url('../img-main/Thousand-02\ 2\ \(2\).svg');
+            width: 659px;
+            height: 534px;
+
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+
+            .btn-main {
+
+                background: #FB8F1D;
+                border-radius: 8px;
+                color: #FFFFFF;
+
+                width:164px;
+                height: 48px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .btn-main:active {
+                background: white;
+                color: #FB8F1D;;
+                
+            }
+
+
+            nav {
+                display: flex;
+                flex-direction: column;
+                
+                
+                h2 {
+                    font: 700 30px 'Playfair Display';
+                    color: #000000;
+    
+                    width: 481px;
+                    height: 100px;
+                }
+    
+                p {
+                    font: 300 17px'Inter';
+    
+                    color: #7D7987;
+                    width: 450px;
+                    height: 120px;
+                }
+            }
+                
+        }
+        
+    }
+}
