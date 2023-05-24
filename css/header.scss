@@ -23,7 +23,7 @@ body {
 
     header {
         width: 1221px;
-        
+
 
         .img-logo {
             background-image: url('../img-header/logo.svg'); // Site logo is stored here // Тут первая картинка(Слево)
@@ -39,9 +39,9 @@ body {
             justify-content: space-around;
             width: 1200px;
             height: 50px;
-            
-            
-            
+
+
+
 
             .right-header {
 
@@ -49,7 +49,7 @@ body {
                 justify-content: space-between;
 
                 nav {
-                    
+
                     display: flex;
                     align-items: center;
 
@@ -59,46 +59,46 @@ body {
                         color: #B8BECD;
                     }
 
-                    p:hover{
-                            text-decoration: underline;
+                    p:hover {
+                        text-decoration: underline;
 
-                        }    
-                    
+                    }
+
                 }
             }
 
-            .header-btn{
+            .header-btn {
                 display: flex;
-                
 
 
-                .btn-login{
+
+                .btn-login {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    
-                
+
+
                     font: 500 15px'Inter';
                     color: #FB8F1D;
 
                     width: 132px;
                     height: 44px;
-    
+
 
                     border: 1px solid #FB8F1D;
                     border-radius: 8px;
                 }
 
-                .btn-login:active{
+                .btn-login:active {
 
                     background: #FB8F1D;
                     color: #FFFFFF;
-                    
+
 
                 }
 
                 .btn-Register {
-                    margin: 0 0 0 30px; 
+                    margin: 0 0 0 30px;
                     font: 500 15px'Inter';
                     color: #FFFFFF;
 
@@ -110,96 +110,108 @@ body {
                     width: 132px;
 
                     background: #FB8F1D;
-                    border-radius: 8px; 
-                    border: 1px solid #FB8F1D;      
+                    border-radius: 8px;
+                    border: 1px solid #FB8F1D;
                 }
 
-                .btn-Register:active{
+                .btn-Register:active {
 
                     background: #FFFFFF;
                     color: #FB8F1D;
 
                 }
             }
-        }   
-    }    
+        }
+    }
 }
 
 
 
 .section-two {
-    
-    margin: auto;
-    
-    margin-top: 113px;
     display: flex;
-    justify-content: space-around;
-
-    .img-header{
-        background-image: url('../img-header/thousand-01\ 1.svg'); // Second picture (on the right) // Вторая картинка (Справа)
-        width: 506px;
-        height: 483px;
-    }    
-
-    h1 {
-        font: 700 64px 'Playfair Display';
-
-        width: 356;
-        height: 160px;
+    justify-content: space-between;
     
-        color: #202336;
-    }
+    
+
+    margin-top: 113px;
 
     div {
-        display: flex;
-        flex-direction: column;
-    }
-    .form {
         
-    }
-    .form h3{
-        font: 600 22px 'Inter';
 
-        color: #202336;  
-    }
+        .top-lvl {
+            display: flex;
+            flex-direction: column;
+            
+            
+            
+            
+            
 
-    .form .btn-form {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font: 700 17px 'Inter';
 
-        width: 180px;
-        height: 52px;
+            h1 {
+                font: 700 64px 'Playfair Display';
 
-        background: #FB8F1D;
-        border-radius: 8px;
-        color: #FFFFFF;
+                width: 356;
+                height: 160px;
         
-        
-    }
+                color: #202336;
 
-    .btn-form:active{
+            }
 
-        background: #FFFFFF;
-        color: #FB8F1D;
-        border: 1px solid #FB8F1D;
-    }   
-
-    .form nav {
-        margin: 71px 0 51px 0;
-        display: grid;
-
-    }
+            .form h3 {
+                font: 600 22px 'Inter';
     
-}
+                color: #202336;
+            }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            border-radius: 3px;
+
+            .block {
+                    border: 1px solid black;
+                    border-radius: 3px;
+                    
+                    
+            }
 
 
 
 
+            .form .btn-form {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font: 700 17px 'Inter';
+        
+                    width: 180px;
+                    height: 52px;
+        
+                    background: #FB8F1D;
+                    border-radius: 8px;
+                    color: #FFFFFF;
+        
+        
+            }
+        
+            .btn-form:active {
+        
+                    background: #FFFFFF;
+                    color: #FB8F1D;
+                    border: 1px solid #FB8F1D;
+            }
+            
+        }
+    }    
+        
+    .img-header {
+        background-image: url('../img-header/thousand-01\ 1.svg'); // Second picture (on the right) // Вторая картинка (Справа)
+            width: 506px;
+            height: 483px;
+                     
+        }
+} 
 
-
-
-
-
-
+    
