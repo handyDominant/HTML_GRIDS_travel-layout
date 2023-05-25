@@ -19,10 +19,20 @@ $click = { //button characteristics //храниться кнопка, ее ха
 
 body {
     height: 2000px;
-    width: 1640px;
 
     header {
-        width: 1221px;
+        position: fixed;
+
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        margin-top: -100px;
+
+
+        width: 1150px;
+        height: 60px;
 
 
         .img-logo {
@@ -32,11 +42,13 @@ body {
         }
 
         .section-one {
-            margin-top: -100px;
-            position: fixed;
+            
             display: flex;
-            align-items: center;
             justify-content: space-around;
+            //align-items: center;
+            //margin-top: -100px;
+            
+            
             width: 1200px;
             height: 50px;
 
@@ -127,91 +139,4 @@ body {
 
 
 
-.section-two {
-    display: flex;
-    justify-content: space-between;
-    
-    
 
-    margin-top: 113px;
-
-    div {
-        
-
-        .top-lvl {
-            display: flex;
-            flex-direction: column;
-            
-            
-            
-            
-            
-
-
-            h1 {
-                font: 700 64px 'Playfair Display';
-
-                width: 356;
-                height: 160px;
-        
-                color: #202336;
-
-            }
-
-            .form h3 {
-                font: 600 22px 'Inter';
-    
-                color: #202336;
-            }
-
-        .form {
-            display: flex;
-            flex-direction: column;
-            border: 1px solid black;
-            border-radius: 3px;
-
-            .block {
-                    border: 1px solid black;
-                    border-radius: 3px;
-                    
-                    
-            }
-
-
-
-
-            .form .btn-form {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    font: 700 17px 'Inter';
-        
-                    width: 180px;
-                    height: 52px;
-        
-                    background: #FB8F1D;
-                    border-radius: 8px;
-                    color: #FFFFFF;
-        
-        
-            }
-        
-            .btn-form:active {
-        
-                    background: #FFFFFF;
-                    color: #FB8F1D;
-                    border: 1px solid #FB8F1D;
-            }
-            
-        }
-    }    
-        
-    .img-header {
-        background-image: url('../img-header/thousand-01\ 1.svg'); // Second picture (on the right) // Вторая картинка (Справа)
-            width: 506px;
-            height: 483px;
-                     
-        }
-} 
-
-    
