@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("../fonts/font.scss");
 * {
   margin: 0;
@@ -6,22 +7,18 @@
   font-style: normal;
 }
 
-main {
-  margin-top: 103px;
-  width: 1206px;
-  height: 534px;
+/* 
+$click = { //button characteristics //храниться кнопка, ее характеристики
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-main section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+*/
+body {
+  height: 2000px;
 }
-main section .img-main {
-  background-image: url("../img-main/Thousand-02 2 (2).svg");
-  width: 659px;
-  height: 534px;
-}
-main section .description {
+body header {
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,14 +26,56 @@ main section .description {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: auto;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: -100px;
+  width: 1150px;
+  height: 60px;
 }
-main section .description .btn-main {
-  background: #FB8F1D;
-  border-radius: 8px;
-  color: #FFFFFF;
-  width: 164px;
-  height: 48px;
+body header .img-logo {
+  background-image: url("../img-header/logo.svg");
+  width: 41px;
+  height: 41px;
+}
+body header .section-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1200px;
+  height: 50px;
+}
+body header .section-one .right-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body header .section-one .right-header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header .section-one .right-header nav p {
+  margin-right: 34px;
+  font: 400 16px "Inter";
+  color: #B8BECD;
+}
+body header .section-one .right-header nav p:hover {
+  text-decoration: underline;
+}
+body header .section-one .header-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body header .section-one .header-btn .btn-login {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,29 +85,37 @@ main section .description .btn-main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-main section .description .btn-main:active {
-  background: white;
+  font: 500 15px "Inter";
   color: #FB8F1D;
+  width: 132px;
+  height: 44px;
+  border: 1px solid #FB8F1D;
+  border-radius: 8px;
 }
-main section .description nav {
+body header .section-one .header-btn .btn-login:active {
+  background: #FB8F1D;
+  color: #FFFFFF;
+}
+body header .section-one .header-btn .btn-Register {
+  margin: 0 0 0 30px;
+  font: 500 15px "Inter";
+  color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 44px;
+  width: 132px;
+  background: #FB8F1D;
+  border-radius: 8px;
+  border: 1px solid #FB8F1D;
 }
-main section .description nav h2 {
-  font: 700 30px "Playfair Display";
-  color: #000000;
-  width: 481px;
-  height: 100px;
-}
-main section .description nav p {
-  font: 300 17px "Inter";
-  color: #7D7987;
-  width: 450px;
-  height: 120px;
+body header .section-one .header-btn .btn-Register:active {
+  background: #FFFFFF;
+  color: #FB8F1D;
 }

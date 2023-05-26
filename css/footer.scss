@@ -2,6 +2,8 @@
 
 
 
+
+
 * {
 
     //The site is written in English and Русский. My git: @handyDominant;
@@ -11,6 +13,22 @@
     font-style: normal;
 }
 
+
+footer {
+    width: 1640px;
+    height: 408px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .footer-img {
+        background-image: url("../img-footer/logo\ \(1\).svg");
+        width: 41px;
+        height: 41px;
+        background-repeat: no-repeat;
+    }    
+
+}
 
 footer {
     width: 1640px;

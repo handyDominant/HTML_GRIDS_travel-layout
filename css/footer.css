@@ -25,3 +25,23 @@ footer .footer-img {
   height: 41px;
   background-repeat: no-repeat;
 }
+
+footer {
+  width: 1640px;
+  height: 408px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footer-img {
+  background-image: url("../img-footer/logo (1).svg");
+  width: 41px;
+  height: 41px;
+  background-repeat: no-repeat;
+}

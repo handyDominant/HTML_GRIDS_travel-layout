@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("../fonts/font.scss");
 /* 
 $click = { //button characteristics //храниться кнопка, ее характеристики
     display: flex;
@@ -112,3 +111,12 @@ body header .section-one .header-btn .btn-Register:active {
   background: #FFFFFF;
   color: #FB8F1D;
 }
+
+/* 
+$click = { //button characteristics //храниться кнопка, ее характеристики
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+/* КОНЕЦ Header */
