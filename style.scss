@@ -115,25 +115,21 @@ main {
 
     .section-one {
         margin-top: 114px;
-        display: flex;
+        
         justify-content: space-around;
 
         div {
-            display: flex;
-            flex-direction: column;
+            
 
             .all-items {
 
                 .titile-section-one {
 
                     nav {
-                        
-
                         h1 {
                             font: 700 64px 'Playfair Display';
                             color: #202336;
                         }
-
                         h3 {
                             margin-top: 74px;
 
@@ -145,9 +141,14 @@ main {
                 }
 
                 .block {
-                    
+                    display: grid;
+                    grid-template-columns: 40px 40px;
+                        
+                    div {
+                        border: 1px solid black;
+                        
 
-                    div {}
+                    }
                 }
             }
 
@@ -175,7 +176,6 @@ main {
                 color: #FFFFFF;
             }   
         }
-    
 
         .img-main-one {
             
@@ -184,5 +184,51 @@ main {
             height: 483px;
         }
     }
+
+
+    .section-two{
+        display: flex;
+        justify-content: space-between;
+        
+        .img-main-two {
+            background-image: url('./img-main/Thousand-02\ 2\ \(2\).svg');
+            width: 659px;
+            height: 534px;
+        }
+        .content-main {
+            nav {
+                h3 {
+
+                }
+                p {
+
+                }
+                .btn-section-two{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    font: 500 15px'Inter';
+                    color: #FB8F1D;
+
+                    width: 132px;
+                    height: 44px;
+
+
+                    border: 1px solid #FB8F1D;
+                    border-radius: 8px;
+                    }
+
+                .btn-section-one:active {
+
+                    background: #FB8F1D;
+                    color: #FFFFFF;
+                } 
+
+                }
+            }
+        }
+    }   
 
 }
