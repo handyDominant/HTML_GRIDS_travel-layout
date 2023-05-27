@@ -21,22 +21,18 @@ $click = { //button characteristics //храниться кнопка, ее ха
 
 main {
 
-    .section-one {
-        margin-top: 114px;
+    .section-main-one {
         display: flex;
         justify-content: space-around;
 
         div {
-            display: flex;
-            flex-direction: column;
+
 
             .all-items {
 
                 .titile-section-one {
 
                     nav {
-                        
-
                         h1 {
                             font: 700 64px 'Playfair Display';
                             color: #202336;
@@ -53,7 +49,7 @@ main {
                 }
 
                 .block {
-                    
+                    display: grid;
 
                     div {}
                 }
@@ -75,23 +71,88 @@ main {
 
                 border: 1px solid #FB8F1D;
                 border-radius: 8px;
-                }
+            }
 
             .btn-section-one:active {
 
                 background: #FB8F1D;
                 color: #FFFFFF;
-            }   
+            }
         }
-    
 
         .img-main-one {
-            
+
             background-image: url("./img-main/thousand-01\ 1.svg");
             width: 506px;
             height: 483px;
         }
     }
 
+
+    .section-main-two {
+        display: flex;
+        justify-content: space-between;
+
+        width: 1206px;
+        height: 534px;
+
+        .img-main-two {
+            background-image: url('./img-main/Thousand-02\ 2\ \(2\).svg');
+            width: 659px;
+            height: 534px;
+        }
+
+        .content-main {
+
+            width: 540px;
+            height: 534px;
+            display: flex;
+            flex-direction: column;
+
+
+            nav {
+
+
+                h3 {
+                    width: 350px;
+                    font: 700 30px 'Playfair Display';
+
+                    color: #000000;
+                }
+
+                p {
+                    width: 350px;
+                    height: 100px;
+                    font: 300 17px'Inter';
+                    color: #7D7987;
+
+                }
+
+                .btn-section-two {
+                    margin-top: 51px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    font: 500 15px'Inter';
+                    color: #FB8F1D;
+
+                    width: 132px;
+                    height: 44px;
+
+
+                    border: 1px solid #FB8F1D;
+                    border-radius: 8px;
+                }
+
+                .btn-section-two:active {
+
+                    background: #FB8F1D;
+                    color: #FFFFFF;
+                }
+
+            }
+        }
+    }
 }
-    

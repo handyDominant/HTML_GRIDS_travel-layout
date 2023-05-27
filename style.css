@@ -7,12 +7,16 @@ $click = { //button characteristics //храниться кнопка, ее ха
     justify-content: center;
 }
 */
+body {
+  width: 1640px;
+}
 body header .img-logo {
   background-image: url("../travel-layout/img-header/logo.svg");
   width: 41px;
   height: 41px;
 }
 body header .section-one {
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,16 +102,19 @@ body header .section-one .btn-register:active {
   background: #FFFFFF;
   color: #FB8F1D;
 }
-
-main .section-one {
-  margin-top: 114px;
+body main {
+  width: 1221px;
+}
+body main .section-main-one {
+  width: 1206px;
+  height: 534px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-main .section-one div {
+body main .section-main-one div .all-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,18 +122,24 @@ main .section-one div {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: auto;
 }
-main .section-one div .all-items .titile-section-one nav h1 {
+body main .section-main-one div .all-items .titile-section-one nav h1 {
+  width: 360px;
   font: 700 64px "Playfair Display";
   color: #202336;
 }
-main .section-one div .all-items .titile-section-one nav h3 {
-  margin-top: 74px;
+body main .section-main-one div .all-items .titile-section-one nav p {
   font: 600 22px "Inter";
   color: #202336;
 }
-main .section-one div .btn-section-one {
-  margin-top: 51px;
+body main .section-main-one div .all-items .block {
+  display: -ms-grid;
+  display: grid;
+}
+body main .section-main-one div .btn-section-one {
+  font: 500 15px "Inter";
+  color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,19 +149,147 @@ main .section-one div .btn-section-one {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font: 500 15px "Inter";
-  color: #FB8F1D;
-  width: 132px;
   height: 44px;
-  border: 1px solid #FB8F1D;
-  border-radius: 8px;
-}
-main .section-one div .btn-section-one:active {
+  width: 132px;
   background: #FB8F1D;
-  color: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #FB8F1D;
 }
-main .section-one .img-main-one {
+body main .section-main-one div .btn-section-one:active {
+  background: #FFFFFF;
+  color: #FB8F1D;
+}
+body main .section-main-one .img-main-one {
   background-image: url("./img-main/thousand-01 1.svg");
   width: 506px;
   height: 483px;
+}
+body main .section-main-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1206px;
+  height: 534px;
+}
+body main .section-main-two .img-main-two {
+  background-image: url("./img-main/Thousand-02 2 (2).svg");
+  width: 659px;
+  height: 534px;
+}
+body main .section-main-two .content-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+}
+body main .section-main-two .content-main nav h3 {
+  width: 350px;
+  font: 700 30px "Playfair Display";
+  color: #000000;
+}
+body main .section-main-two .content-main nav p {
+  width: 350px;
+  height: 100px;
+  font: 300 17px "Inter";
+  color: #7D7987;
+}
+body main .section-main-two .content-main nav .btn-section-two {
+  font: 500 15px "Inter";
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 44px;
+  width: 132px;
+  background: #FB8F1D;
+  border-radius: 8px;
+  border: 1px solid #FB8F1D;
+}
+body main .section-main-two .content-main nav .btn-section-two:active {
+  background: #FFFFFF;
+  color: #FB8F1D;
+}
+body footer {
+  width: 1640px;
+  margin-top: 192px;
+  height: 408px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #F9F9FB;
+}
+body footer .section-footer-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body footer .section-footer-one .block-footer-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body footer .section-footer-one .block-footer-one .footer-img {
+  background-image: url("./img-footer/logo (1).svg");
+  width: 41px;
+  height: 41px;
+  background-repeat: no-repeat;
+}
+body footer .section-footer-one .block-footer-one nav {
+  width: 391px;
+  height: 200px;
+  font: 300 18px "Inter";
+  color: #848484;
+}
+body footer .section-footer-one .block-footer-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+body footer .section-footer-one .block-footer-two nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 250px;
+}
+body footer .section-footer-one .block-footer-two nav h6 {
+  font: 700 19px "Inter";
+  color: #000000;
+}
+body footer .section-footer-one .block-footer-two nav p {
+  font: 300 18px "Inter";
+  color: #848484;
 }

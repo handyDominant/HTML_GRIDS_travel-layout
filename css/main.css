@@ -14,33 +14,27 @@ $click = { //button characteristics //храниться кнопка, ее ха
     justify-content: center;
 }
 */
-main .section-one {
-  margin-top: 114px;
+main .section-main-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-main .section-one div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-main .section-one div .all-items .titile-section-one nav h1 {
+main .section-main-one div .all-items .titile-section-one nav h1 {
   font: 700 64px "Playfair Display";
   color: #202336;
 }
-main .section-one div .all-items .titile-section-one nav h3 {
+main .section-main-one div .all-items .titile-section-one nav h3 {
   margin-top: 74px;
   font: 600 22px "Inter";
   color: #202336;
 }
-main .section-one div .btn-section-one {
+main .section-main-one div .all-items .block {
+  display: -ms-grid;
+  display: grid;
+}
+main .section-main-one div .btn-section-one {
   margin-top: 51px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,12 +52,71 @@ main .section-one div .btn-section-one {
   border: 1px solid #FB8F1D;
   border-radius: 8px;
 }
-main .section-one div .btn-section-one:active {
+main .section-main-one div .btn-section-one:active {
   background: #FB8F1D;
   color: #FFFFFF;
 }
-main .section-one .img-main-one {
+main .section-main-one .img-main-one {
   background-image: url("./img-main/thousand-01 1.svg");
   width: 506px;
   height: 483px;
+}
+main .section-main-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1206px;
+  height: 534px;
+}
+main .section-main-two .img-main-two {
+  background-image: url("./img-main/Thousand-02 2 (2).svg");
+  width: 659px;
+  height: 534px;
+}
+main .section-main-two .content-main {
+  width: 540px;
+  height: 534px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+main .section-main-two .content-main nav h3 {
+  width: 350px;
+  font: 700 30px "Playfair Display";
+  color: #000000;
+}
+main .section-main-two .content-main nav p {
+  width: 350px;
+  height: 100px;
+  font: 300 17px "Inter";
+  color: #7D7987;
+}
+main .section-main-two .content-main nav .btn-section-two {
+  margin-top: 51px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font: 500 15px "Inter";
+  color: #FB8F1D;
+  width: 132px;
+  height: 44px;
+  border: 1px solid #FB8F1D;
+  border-radius: 8px;
+}
+main .section-main-two .content-main nav .btn-section-two:active {
+  background: #FB8F1D;
+  color: #FFFFFF;
 }
