@@ -10,24 +10,9 @@ $click = { //button characteristics //храниться кнопка, ее ха
 */
 
 body {
-    height: 2000px;
-
     header {
-        position: fixed;
-
-
-        display: flex; 
-        flex-direction: column;
-        align-content: center;
-        margin-top: -100px;
-
-
-        width: 1150px;
-        height: 60px;
-
-
         .img-logo {
-            background-image: url('../img-header/logo.svg'); // Site logo is stored here // Тут первая картинка(Слево)
+            background-image: url('../travel-layout/img-header/logo.svg'); // Site logo is stored here // Тут первая картинка(Слево)
             width: 41px;
             height: 41px;
         }
@@ -35,8 +20,8 @@ body {
         .section-one {
             display: flex;
             justify-content: space-around;
-            
-            
+
+
             width: 1200px;
             height: 50px;
 
@@ -63,7 +48,7 @@ body {
 
             .header-btn {
                 display: flex;
-                
+
                 .btn-login {
                     display: flex;
                     align-items: center;
@@ -81,42 +66,45 @@ body {
                     border-radius: 8px;
                 }
 
-                .btn-login:active {
-
-                    background: #FB8F1D;
-                    color: #FFFFFF;
-
-
-                }
-
-                .btn-Register {
-                    margin: 0 0 0 30px;
-                    font: 500 15px'Inter';
-                    color: #FFFFFF;
-
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-
-                    height: 44px;
-                    width: 132px;
-
-                    background: #FB8F1D;
-                    border-radius: 8px;
-                    border: 1px solid #FB8F1D;
-                }
-
                 .btn-Register:active {
 
                     background: #FFFFFF;
                     color: #FB8F1D;
 
                 }
+
+                .btn-login:active {
+
+                    background: #FB8F1D;
+                    color: #FFFFFF;
+
+                }
             }
+
+            .btn-register {
+                margin: 0 0 0 30px;
+                font: 500 15px'Inter';
+                color: #FFFFFF;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                height: 44px;
+                width: 132px;
+
+                background: #FB8F1D;
+                border-radius: 8px;
+                border: 1px solid #FB8F1D;
+            }
+
+            .btn-register:active {
+
+                background: #FFFFFF;
+                color: #FB8F1D;
+
+            }
+
         }
     }
 }
-
-
-
-

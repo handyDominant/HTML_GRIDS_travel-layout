@@ -7,26 +7,8 @@ $click = { //button characteristics //храниться кнопка, ее ха
     justify-content: center;
 }
 */
-body {
-  height: 2000px;
-}
-body header {
-  position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  margin-top: -100px;
-  width: 1150px;
-  height: 60px;
-}
 body header .img-logo {
-  background-image: url("../img-header/logo.svg");
+  background-image: url("../travel-layout/img-header/logo.svg");
   width: 41px;
   height: 41px;
 }
@@ -85,11 +67,15 @@ body header .section-one .header-btn .btn-login {
   border: 1px solid #FB8F1D;
   border-radius: 8px;
 }
+body header .section-one .header-btn .btn-Register:active {
+  background: #FFFFFF;
+  color: #FB8F1D;
+}
 body header .section-one .header-btn .btn-login:active {
   background: #FB8F1D;
   color: #FFFFFF;
 }
-body header .section-one .header-btn .btn-Register {
+body header .section-one .btn-register {
   margin: 0 0 0 30px;
   font: 500 15px "Inter";
   color: #FFFFFF;
@@ -108,7 +94,7 @@ body header .section-one .header-btn .btn-Register {
   border-radius: 8px;
   border: 1px solid #FB8F1D;
 }
-body header .section-one .header-btn .btn-Register:active {
+body header .section-one .btn-register:active {
   background: #FFFFFF;
   color: #FB8F1D;
 }
