@@ -19,111 +19,79 @@ $click = { //button characteristics //храниться кнопка, ее ха
 }
 */
 
-body {
-    height: 2000px;
+main {
 
-    header {
-        position: fixed;
+    .section-one {
+        margin-top: 114px;
+        display: flex;
+        justify-content: space-around;
 
-
-        display: flex; 
-        flex-direction: column;
-        align-content: center;
-        margin-top: -100px;
-
-
-        width: 1150px;
-        height: 60px;
-
-
-        .img-logo {
-            background-image: url('../img-header/logo.svg'); // Site logo is stored here // Тут первая картинка(Слево)
-            width: 41px;
-            height: 41px;
-        }
-
-        .section-one {
+        div {
             display: flex;
-            justify-content: space-around;
-            
-            
-            width: 1200px;
-            height: 50px;
+            flex-direction: column;
 
-            .right-header {
+            .all-items {
 
-                display: flex;
-                justify-content: space-between;
+                .titile-section-one {
 
-                nav {
-                    display: flex;
-                    align-items: center;
+                    nav {
+                        
 
-                    p {
-                        margin-right: 34px;
-                        font: 400 16px'Inter';
-                        color: #B8BECD;
+                        h1 {
+                            font: 700 64px 'Playfair Display';
+                            color: #202336;
+                        }
+
+                        h3 {
+                            margin-top: 74px;
+
+                            font: 600 22px'Inter';
+                            color: #202336;
+                        }
                     }
 
-                    p:hover {
-                        text-decoration: underline;
-                    }
+                }
+
+                .block {
+                    
+
+                    div {}
                 }
             }
 
-            .header-btn {
+            .btn-section-one {
+                margin-top: 51px;
                 display: flex;
-                
-                .btn-login {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+                align-items: center;
+                justify-content: center;
 
 
-                    font: 500 15px'Inter';
-                    color: #FB8F1D;
+                font: 500 15px'Inter';
+                color: #FB8F1D;
 
-                    width: 132px;
-                    height: 44px;
+                width: 132px;
+                height: 44px;
 
 
-                    border: 1px solid #FB8F1D;
-                    border-radius: 8px;
+                border: 1px solid #FB8F1D;
+                border-radius: 8px;
                 }
 
-                .btn-login:active {
+            .btn-section-one:active {
 
-                    background: #FB8F1D;
-                    color: #FFFFFF;
+                background: #FB8F1D;
+                color: #FFFFFF;
+            }   
+        }
+    
 
-
-                }
-
-                .btn-Register {
-                    margin: 0 0 0 30px;
-                    font: 500 15px'Inter';
-                    color: #FFFFFF;
-
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-
-                    height: 44px;
-                    width: 132px;
-
-                    background: #FB8F1D;
-                    border-radius: 8px;
-                    border: 1px solid #FB8F1D;
-                }
-
-                .btn-Register:active {
-
-                    background: #FFFFFF;
-                    color: #FB8F1D;
-
-                }
-            }
+        .img-main-one {
+            
+            background-image: url("./img-main/thousand-01\ 1.svg");
+            width: 506px;
+            height: 483px;
         }
     }
+
 }
     

@@ -14,11 +14,15 @@ $click = { //button characteristics //храниться кнопка, ее ха
     justify-content: center;
 }
 */
-body {
-  height: 2000px;
+main .section-one {
+  margin-top: 114px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
-body header {
-  position: fixed;
+main .section-one div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,56 +30,18 @@ body header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  margin-top: -100px;
-  width: 1150px;
-  height: 60px;
 }
-body header .img-logo {
-  background-image: url("../img-header/logo.svg");
-  width: 41px;
-  height: 41px;
+main .section-one div .all-items .titile-section-one nav h1 {
+  font: 700 64px "Playfair Display";
+  color: #202336;
 }
-body header .section-one {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 1200px;
-  height: 50px;
+main .section-one div .all-items .titile-section-one nav h3 {
+  margin-top: 74px;
+  font: 600 22px "Inter";
+  color: #202336;
 }
-body header .section-one .right-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-body header .section-one .right-header nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-body header .section-one .right-header nav p {
-  margin-right: 34px;
-  font: 400 16px "Inter";
-  color: #B8BECD;
-}
-body header .section-one .right-header nav p:hover {
-  text-decoration: underline;
-}
-body header .section-one .header-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-body header .section-one .header-btn .btn-login {
+main .section-one div .btn-section-one {
+  margin-top: 51px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,30 +58,12 @@ body header .section-one .header-btn .btn-login {
   border: 1px solid #FB8F1D;
   border-radius: 8px;
 }
-body header .section-one .header-btn .btn-login:active {
+main .section-one div .btn-section-one:active {
   background: #FB8F1D;
   color: #FFFFFF;
 }
-body header .section-one .header-btn .btn-Register {
-  margin: 0 0 0 30px;
-  font: 500 15px "Inter";
-  color: #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 44px;
-  width: 132px;
-  background: #FB8F1D;
-  border-radius: 8px;
-  border: 1px solid #FB8F1D;
-}
-body header .section-one .header-btn .btn-Register:active {
-  background: #FFFFFF;
-  color: #FB8F1D;
+main .section-one .img-main-one {
+  background-image: url("./img-main/thousand-01 1.svg");
+  width: 506px;
+  height: 483px;
 }
