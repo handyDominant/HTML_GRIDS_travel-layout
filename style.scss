@@ -151,14 +151,25 @@ body {
                     }
 
                     .block {
-                        display: grid;
 
-                        div {}
+                        display: grid;
+                        grid-template-columns: 220px 220px;
+                        grid-gap: 35px 30px;
+
+                        div {
+                            border: 0.8px solid #AFB0B9;
+                            border-radius: 6px;
+
+                            font-family: 400 15px'Inter';
+
+
+                            color: #4A4C53;
+                        }
                     }
                 }
 
                 .btn-section-one {
-
+                    margin-top: 51px;
                     font: 500 15px'Inter';
                     color: #FFFFFF;
 
@@ -260,16 +271,17 @@ body {
     }
 
     footer {
-        width: 1640px;
         margin-top: 192px;
         height: 408px;
-        
+        margin: auto;
+
         display: flex;
         justify-content: space-between;
 
         background: #F9F9FB;
 
         .section-footer-one {
+
             display: flex;
             justify-content: space-between;
 
@@ -277,6 +289,10 @@ body {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                justify-content: space-between;
+
+                width: 400px;
+                height: 300px;
 
                 .footer-img {
                     background-image: url("./img-footer/logo\ \(1\).svg");
@@ -304,7 +320,7 @@ body {
                 nav {
                     display: flex;
                     flex-direction: column;
-                    
+
                     height: 250px;
 
 

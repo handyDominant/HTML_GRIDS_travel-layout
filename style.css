@@ -136,8 +136,18 @@ body main .section-main-one div .all-items .titile-section-one nav p {
 body main .section-main-one div .all-items .block {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 220px 30px 220px;
+  grid-template-columns: 220px 220px;
+  grid-gap: 35px 30px;
+}
+body main .section-main-one div .all-items .block div {
+  border: 0.8px solid #AFB0B9;
+  border-radius: 6px;
+  font-family: 400 15px "Inter";
+  color: #4A4C53;
 }
 body main .section-main-one div .btn-section-one {
+  margin-top: 51px;
   font: 500 15px "Inter";
   color: #FFFFFF;
   display: -webkit-box;
@@ -222,9 +232,9 @@ body main .section-main-two .content-main nav .btn-section-two:active {
   color: #FB8F1D;
 }
 body footer {
-  width: 1640px;
   margin-top: 192px;
   height: 408px;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -252,6 +262,11 @@ body footer .section-footer-one .block-footer-one {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 400px;
+  height: 300px;
 }
 body footer .section-footer-one .block-footer-one .footer-img {
   background-image: url("./img-footer/logo (1).svg");
