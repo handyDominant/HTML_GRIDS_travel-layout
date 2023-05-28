@@ -234,22 +234,16 @@ body main .section-main-two .content-main nav .btn-section-two:active {
 body footer {
   margin-top: 192px;
   height: 408px;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  width: 1300px;
   background: #F9F9FB;
 }
 body footer .section-footer-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
 }
 body footer .section-footer-one .block-footer-one {
   display: -webkit-box;
@@ -259,14 +253,12 @@ body footer .section-footer-one .block-footer-one {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 400px;
-  height: 300px;
+  width: 391px;
+  height: 200px;
+}
+body footer .section-footer-one .block-footer-one nav {
+  font: 300 18px "Inter";
+  color: #848484;
 }
 body footer .section-footer-one .block-footer-one .footer-img {
   background-image: url("./img-footer/logo (1).svg");
@@ -274,23 +266,16 @@ body footer .section-footer-one .block-footer-one .footer-img {
   height: 41px;
   background-repeat: no-repeat;
 }
-body footer .section-footer-one .block-footer-one nav {
-  width: 391px;
-  height: 200px;
-  font: 300 18px "Inter";
-  color: #848484;
-}
 body footer .section-footer-one .block-footer-two {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 body footer .section-footer-one .block-footer-two nav {
+  margin-left: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -298,13 +283,9 @@ body footer .section-footer-one .block-footer-two nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 250px;
+  height: 200px;
 }
-body footer .section-footer-one .block-footer-two nav h6 {
+body footer .section-footer-one .block-footer-two nav p:first-child {
   font: 700 19px "Inter";
   color: #000000;
-}
-body footer .section-footer-one .block-footer-two nav p {
-  font: 300 18px "Inter";
-  color: #848484;
 }

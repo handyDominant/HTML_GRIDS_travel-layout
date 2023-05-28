@@ -273,26 +273,27 @@ body {
     footer {
         margin-top: 192px;
         height: 408px;
-        margin: auto;
-
-        display: flex;
-        justify-content: space-between;
+        width: 1300px;
 
         background: #F9F9FB;
 
         .section-footer-one {
-
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
+            margin: auto;
 
             .block-footer-one {
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
-                justify-content: space-between;
 
-                width: 400px;
-                height: 300px;
+
+                width: 391px;
+                height: 200px;
+
+                nav {
+                    font: 300 18px'Inter';
+                    color: #848484;
+                }
 
                 .footer-img {
                     background-image: url("./img-footer/logo\ \(1\).svg");
@@ -300,47 +301,27 @@ body {
                     height: 41px;
                     background-repeat: no-repeat;
                 }
-
-                nav {
-                    width: 391px;
-                    height: 200px;
-
-                    font: 300 18px'Inter';
-                    color: #848484;
-                }
-
-
             }
 
             .block-footer-two {
                 display: flex;
-                justify-content: center;
-                justify-content: space-around;
+                justify-content: space-between;
 
                 nav {
+                    margin-left: 100px;
                     display: flex;
                     flex-direction: column;
-
-                    height: 250px;
-
+                    height: 200px;
 
 
-                    h6 {
+
+
+                    p:first-child {
                         font: 700 19px'Inter';
                         color: #000000;
                     }
-
-                    p {
-                        font: 300 18px 'Inter';
-                        color: #848484;
-
-
-
-                    }
                 }
             }
-
         }
-
     }
 }
