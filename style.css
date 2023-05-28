@@ -10,20 +10,22 @@ $click = { //button characteristics //храниться кнопка, ее ха
 body {
   width: 1640px;
 }
-body header .img-logo {
-  background-image: url("../travel-layout/img-header/logo.svg");
-  width: 41px;
-  height: 41px;
+body header {
+  position: fixed;
+  width: 1200px;
+  margin-top: -210px;
 }
 body header .section-one {
-  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 1200px;
-  height: 50px;
+}
+body header .section-one .img-logo {
+  background-image: url("../travel-layout/img-header/logo.svg");
+  width: 41px;
+  height: 41px;
 }
 body header .section-one .right-header {
   display: -webkit-box;
@@ -53,6 +55,9 @@ body header .section-one .header-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 body header .section-one .header-btn .btn-login {
   display: -webkit-box;
@@ -70,10 +75,6 @@ body header .section-one .header-btn .btn-login {
   height: 44px;
   border: 1px solid #FB8F1D;
   border-radius: 8px;
-}
-body header .section-one .header-btn .btn-Register:active {
-  background: #FFFFFF;
-  color: #FB8F1D;
 }
 body header .section-one .header-btn .btn-login:active {
   background: #FB8F1D;
@@ -103,11 +104,10 @@ body header .section-one .btn-register:active {
   color: #FB8F1D;
 }
 body main {
-  width: 1221px;
+  width: 1300px;
+  margin: 230px 0px;
 }
 body main .section-main-one {
-  width: 1206px;
-  height: 534px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,6 +175,7 @@ body main .section-main-one .img-main-one {
   height: 483px;
 }
 body main .section-main-two {
+  margin-top: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -13,23 +13,22 @@ body {
     width: 1640px;
 
     header {
-        .img-logo {
-            background-image: url('../travel-layout/img-header/logo.svg'); // Site logo is stored here // Тут первая картинка(Слево)
-            width: 41px;
-            height: 41px;
-        }
+        position: fixed;
+        width: 1200px;
+        margin-top: -210px;
+
 
         .section-one {
-            position: fixed;
             display: flex;
             justify-content: space-around;
 
-
-            width: 1200px;
-            height: 50px;
+            .img-logo {
+                background-image: url('../travel-layout/img-header/logo.svg'); // Site logo is stored here // Тут первая картинка(Слево)
+                width: 41px;
+                height: 41px;
+            }
 
             .right-header {
-
                 display: flex;
                 justify-content: space-between;
 
@@ -51,12 +50,12 @@ body {
 
             .header-btn {
                 display: flex;
+                justify-content: space-between;
 
                 .btn-login {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-
 
                     font: 500 15px'Inter';
                     color: #FB8F1D;
@@ -64,24 +63,17 @@ body {
                     width: 132px;
                     height: 44px;
 
-
                     border: 1px solid #FB8F1D;
                     border-radius: 8px;
-                }
-
-                .btn-Register:active {
-
-                    background: #FFFFFF;
-                    color: #FB8F1D;
-
                 }
 
                 .btn-login:active {
 
                     background: #FB8F1D;
                     color: #FFFFFF;
-
                 }
+
+
             }
 
             .btn-register {
@@ -105,8 +97,6 @@ body {
 
                 background: #FFFFFF;
                 color: #FB8F1D;
-
-
             }
 
         }
@@ -116,11 +106,12 @@ body {
 
 
     main {
-        width: 1221px;
+        width: 1300px;
+        margin: 230px 0px;
+	    
+        
 
         .section-main-one {
-            width: 1206px;
-            height: 534px;
             display: flex;
             justify-content: space-around;
 
@@ -129,7 +120,6 @@ body {
                 .all-items {
                     display: flex;
                     flex-direction: column;
-
                     margin: auto;
 
                     .titile-section-one {
@@ -204,6 +194,7 @@ body {
 
 
         .section-main-two {
+            margin-top: 150px;
             display: flex;
             justify-content: space-around;
 
@@ -295,7 +286,7 @@ body {
                     flex-direction: column;
                     justify-content: space-around;
 
-                    p:first-child{
+                    p:first-child {
                         width: 300px;
                         height: 71.1px;
 
