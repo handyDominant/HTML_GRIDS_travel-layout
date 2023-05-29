@@ -124,6 +124,9 @@ body main .section-main-one div .all-items {
           flex-direction: column;
   margin: auto;
 }
+body main .section-main-one div .all-items .titile-section-one nav {
+  margin-bottom: 71px;
+}
 body main .section-main-one div .all-items .titile-section-one nav h1 {
   width: 360px;
   font: 700 64px "Playfair Display";
