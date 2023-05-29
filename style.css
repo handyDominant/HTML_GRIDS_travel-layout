@@ -330,6 +330,9 @@ body footer .section-footer-one .block-footer-two nav p {
   font: 300 18px "Inter";
   color: #848484;
 }
+body footer .section-footer-one .block-footer-two nav p:hover {
+  text-decoration: underline;
+}
 body footer .section-footer-one .block-footer-two nav p:first-child {
   font: 700 19px "Inter";
   color: #000000;
