@@ -138,9 +138,36 @@ body main .section-main-one div .all-items .block {
   display: grid;
   -ms-grid-columns: 220px 30px 220px;
   grid-template-columns: 220px 220px;
+  -ms-grid-rows: 52px 35px 52px;
+  grid-template-rows: 52px 52px;
   grid-gap: 35px 30px;
 }
+body main .section-main-one div .all-items .block > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+body main .section-main-one div .all-items .block > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+body main .section-main-one div .all-items .block > *:nth-child(3) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+body main .section-main-one div .all-items .block > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
 body main .section-main-one div .all-items .block div {
+  font: 400 15px "Inter";
+  font-family: "Inter";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #4A4C53;
   border: 0.8px solid #AFB0B9;
   border-radius: 6px;
   font-family: 400 15px "Inter";

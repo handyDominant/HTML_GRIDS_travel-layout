@@ -144,9 +144,21 @@ body {
 
                         display: grid;
                         grid-template-columns: 220px 220px;
+                        grid-template-rows: 52px 52px;
                         grid-gap: 35px 30px;
 
                         div {
+                            font: 400 15px 'Inter';
+                            font-family: 'Inter';
+
+                            display: flex;
+                            align-items: center;
+
+                            color: #4A4C53;
+
+
+
+
                             border: 0.8px solid #AFB0B9;
                             border-radius: 6px;
 
