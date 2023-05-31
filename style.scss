@@ -14,7 +14,7 @@ body {
     margin: auto;
 
     header {
-        position: fixed; 
+        position: fixed;
         width: 1240px;
         margin-top: -210px;
 
@@ -29,7 +29,7 @@ body {
                 height: 41px;
                 background-repeat: no-repeat;
                 background-size: contain;
-                
+
             }
 
             .right-header {
@@ -112,8 +112,8 @@ body {
     main {
         width: 1300px;
         margin: 230px 0px;
-	    
-        
+
+
 
         .section-main-one {
             display: flex;
@@ -129,7 +129,8 @@ body {
                     .titile-section-one {
 
                         nav {
-                            margin-bottom: 71px; 
+                            margin-bottom: 71px;
+
                             h1 {
                                 width: 360px;
 
@@ -146,14 +147,14 @@ body {
                     }
 
                     .block {
-                        
+
                         display: grid;
                         grid-template-columns: 220px 220px;
                         grid-template-rows: 52px 52px;
                         grid-gap: 35px 30px;
 
                         div {
-                            
+
 
                             font: 400 15px 'Inter';
                             font-family: 'Inter';
@@ -211,7 +212,7 @@ body {
             display: flex;
             justify-content: space-around;
 
-            
+
 
             .img-main-two {
                 background-image: url('./img-main/Thousand-02\ 2\ \(2\).svg');
@@ -288,7 +289,7 @@ body {
         .section-footer-one {
             display: flex;
             justify-content: space-around;
-            
+
 
 
             .block-footer-one {
@@ -317,7 +318,7 @@ body {
                     height: 41px;
                     background-repeat: no-repeat;
                     background-size: contain;
-                    
+
                 }
             }
 
@@ -328,7 +329,7 @@ body {
                 nav {
                     height: 211px;
                     margin: 2px 0 0 100px;
-                    
+
 
                     p {
                         font: 300 18px 'Inter';
@@ -344,7 +345,7 @@ body {
                         color: #000000;
                     }
 
-                    
+
                 }
             }
         }
@@ -352,5 +353,15 @@ body {
 }
 
 
+@media screen and (max-width: 500px) {
+    header {
+        .section-one {
+            .img-logo {
+                background-image: none;
+            }
+        }
+
+    }
 
 
+}

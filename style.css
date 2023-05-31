@@ -343,3 +343,9 @@ body footer .section-footer-one .block-footer-two nav p:first-child {
   font: 700 19px "Inter";
   color: #000000;
 }
+
+@media screen and (max-width: 500px) {
+  header .section-one .img-logo {
+    background-image: none;
+  }
+}
