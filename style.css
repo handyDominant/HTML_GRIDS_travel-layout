@@ -9,10 +9,11 @@ $click = { //button characteristics //храниться кнопка, ее ха
 */
 body {
   width: 1640px;
+  margin: auto;
 }
 body header {
   position: fixed;
-  width: 1200px;
+  width: 1240px;
   margin-top: -210px;
 }
 body header .section-one {
@@ -26,6 +27,8 @@ body header .section-one .img-logo {
   background-image: url("../travel-layout/img-header/logo.svg");
   width: 41px;
   height: 41px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 body header .section-one .right-header {
   display: -webkit-box;
@@ -201,6 +204,8 @@ body main .section-main-one .img-main-one {
   background-image: url("./img-main/thousand-01 1.svg");
   width: 506px;
   height: 483px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 body main .section-main-two {
   margin-top: 150px;
@@ -209,13 +214,13 @@ body main .section-main-two {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 1206px;
-  height: 534px;
 }
 body main .section-main-two .img-main-two {
   background-image: url("./img-main/Thousand-02 2 (2).svg");
   width: 659px;
   height: 534px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 body main .section-main-two .content-main {
   display: -webkit-box;
@@ -314,6 +319,7 @@ body footer .section-footer-one .block-footer-one .footer-img {
   width: 41px;
   height: 41px;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 body footer .section-footer-one .block-footer-two {
   display: -webkit-box;
