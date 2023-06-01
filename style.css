@@ -345,7 +345,26 @@ body footer .section-footer-one .block-footer-two nav p:first-child {
 }
 
 @media screen and (max-width: 500px) {
+  header .section-one {
+    background-color: red;
+  }
   header .section-one .img-logo {
-    background-image: none;
+    display: none;
+  }
+  main .section-main-one div .all-items .titile-section-one nav h1 {
+    font: 700 40px "Playfair Display";
+    color: #202336;
+    background-color: red;
+  }
+  main .section-main-one div .all-items .block {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 45px 20px 45px 20px 45px 20px 45px;
+    grid-template-rows: 45px 45px 45px 45px;
+    grid-gap: 20px 20px;
+    background-color: red;
+  }
+  main .img-main-one {
+    display: none;
   }
 }

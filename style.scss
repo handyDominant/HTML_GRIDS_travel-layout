@@ -356,9 +356,48 @@ body {
 @media screen and (max-width: 500px) {
     header {
         .section-one {
+            background-color: red;
+
             .img-logo {
-                background-image: none;
+                display: none;
             }
+        }
+
+    }
+
+    main {
+        .section-main-one {
+            div {
+                .all-items {
+
+                    .titile-section-one {
+                        nav {
+                            h1 {
+                                font: 700 40px 'Playfair Display';
+                                color: #202336;
+                                background-color: red;
+                            }
+                        }
+
+                    }
+
+                    .block {
+
+                        display: grid;
+                        grid-template-rows: 45px 45px 45px 45px;
+                        grid-gap: 20px 20px;
+
+
+                        background-color: red;
+                    }
+
+                }
+            }
+
+        }
+
+        .img-main-one {
+            display: none;
         }
 
     }
