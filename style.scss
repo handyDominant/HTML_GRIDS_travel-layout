@@ -353,10 +353,10 @@ body {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     header {
+        display: none;
         .section-one {
-            background-color: red;
 
             .img-logo {
                 display: none;
