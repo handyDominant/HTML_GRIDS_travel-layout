@@ -344,9 +344,9 @@ body footer .section-footer-one .block-footer-two nav p:first-child {
   color: #000000;
 }
 
-@media screen and (max-width: 500px) {
-  header .section-one {
-    background-color: red;
+@media screen and (max-width: 600px) {
+  header {
+    display: none;
   }
   header .section-one .img-logo {
     display: none;
@@ -364,7 +364,13 @@ body footer .section-footer-one .block-footer-two nav p:first-child {
     grid-gap: 20px 20px;
     background-color: red;
   }
-  main .img-main-one {
+  main .section-main-one .img-main-one {
+    display: none;
+  }
+  main .section-main-two .img-main-two {
+    display: none;
+  }
+  footer {
     display: none;
   }
 }

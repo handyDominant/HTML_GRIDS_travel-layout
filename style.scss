@@ -356,6 +356,7 @@ body {
 @media screen and (max-width: 600px) {
     header {
         display: none;
+
         .section-one {
 
             .img-logo {
@@ -394,13 +395,32 @@ body {
                 }
             }
 
+            .img-main-one {
+                display: none;
+            }
+
         }
 
-        .img-main-one {
-            display: none;
+
+        .section-main-two {
+
+            .img-main-two {
+                display: none;
+            }
+
+            .content-main {
+                nav {
+                    h3 {}
+
+                    p {}
+                }
+            }
         }
 
     }
 
+    footer {
+        display: none;
+    }
 
 }
