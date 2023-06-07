@@ -354,7 +354,6 @@ body footer .section-footer-one .block-footer-two nav p:first-child {
   main .section-main-one div .all-items .titile-section-one nav h1 {
     font: 700 40px "Playfair Display";
     color: #202336;
-    background-color: red;
   }
   main .section-main-one div .all-items .block {
     display: -ms-grid;
@@ -362,7 +361,6 @@ body footer .section-footer-one .block-footer-two nav p:first-child {
     -ms-grid-rows: 45px 20px 45px 20px 45px 20px 45px;
     grid-template-rows: 45px 45px 45px 45px;
     grid-gap: 20px 20px;
-    background-color: red;
   }
   main .section-main-one .img-main-one {
     display: none;
@@ -370,7 +368,7 @@ body footer .section-footer-one .block-footer-two nav p:first-child {
   main .section-main-two .img-main-two {
     display: none;
   }
-  footer {
+  footer .section-footer-one {
     display: none;
   }
 }

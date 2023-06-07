@@ -1,47 +1,79 @@
 @import url("../fonts/font.scss");
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Inter";
-  font-style: normal;
-}
-
 footer {
-  width: 1640px;
-  height: 408px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-footer .footer-img {
-  background-image: url("../img-footer/logo (1).svg");
-  width: 41px;
-  height: 41px;
-  background-repeat: no-repeat;
-}
-
-footer {
-  width: 1640px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 192px;
   height: 408px;
+  width: 1300px;
+  background: #F9F9FB;
+}
+footer .section-footer-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
-footer .footer-img {
-  background-image: url("../img-footer/logo (1).svg");
+footer .section-footer-one .block-footer-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+footer .section-footer-one .block-footer-one nav {
+  font: 300 18px "Inter";
+  color: #848484;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+footer .section-footer-one .block-footer-one nav p:first-child {
+  width: 300px;
+  height: 71.1px;
+}
+footer .section-footer-one .block-footer-one .footer-img {
+  background-image: url("./img-header/logo.svg");
   width: 41px;
   height: 41px;
   background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .section-footer-one .block-footer-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+footer .section-footer-one .block-footer-two nav {
+  height: 211px;
+  margin: 2px 0 0 100px;
+}
+footer .section-footer-one .block-footer-two nav p {
+  font: 300 18px "Inter";
+  color: #848484;
+}
+footer .section-footer-one .block-footer-two nav p:hover {
+  text-decoration: underline;
+}
+footer .section-footer-one .block-footer-two nav p:first-child {
+  font: 700 19px "Inter";
+  color: #000000;
 }

@@ -353,7 +353,6 @@ body {
                             h1 {
                                 font: 700 40px 'Playfair Display';
                                 color: #202336;
-                                background-color: red;
                             }
                         }
 
@@ -364,9 +363,6 @@ body {
                         display: grid;
                         grid-template-rows: 45px 45px 45px 45px;
                         grid-gap: 20px 20px;
-
-
-                        background-color: red;
                     }
 
                 }
@@ -396,7 +392,9 @@ body {
     }
 
     footer {
-        display: none;
+        .section-footer-one{
+            display: none;
+        }
     }
 
 }

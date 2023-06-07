@@ -20,63 +20,80 @@ $click = { //button characteristics //храниться кнопка, ее ха
 */
 
 main {
+    width: 1300px;
+    margin: 230px 0px;
 
     .section-main-one {
         display: flex;
         justify-content: space-around;
 
         div {
-
-
             .all-items {
+                display: flex;
+                flex-direction: column;
+                margin: auto;
 
                 .titile-section-one {
-
                     nav {
+                        margin-bottom: 71px;
+
                         h1 {
+                            width: 360px;
+
                             font: 700 64px 'Playfair Display';
                             color: #202336;
                         }
 
-                        h3 {
-                            margin-top: 74px;
-
+                        p {
                             font: 600 22px'Inter';
                             color: #202336;
                         }
                     }
-
                 }
 
                 .block {
-                    display: grid;
 
-                    div {}
+                    display: grid;
+                    grid-template-columns: 220px 220px;
+                    grid-template-rows: 52px 52px;
+                    grid-gap: 35px 30px;
+
+                    div {
+                        font: 400 15px 'Inter';
+                        font-family: 'Inter';
+
+                        display: flex;
+                        align-items: center;
+
+                        border: 0.8px solid #AFB0B9;
+                        border-radius: 6px;
+
+                        color: #4A4C53;
+                    }
                 }
             }
 
             .btn-section-one {
                 margin-top: 51px;
+                font: 500 15px'Inter';
+                color: #FFFFFF;
+
                 display: flex;
                 align-items: center;
                 justify-content: center;
 
-
-                font: 500 15px'Inter';
-                color: #FB8F1D;
-
-                width: 132px;
                 height: 44px;
+                width: 132px;
 
-
-                border: 1px solid #FB8F1D;
+                background: #FB8F1D;
                 border-radius: 8px;
+                border: 1px solid #FB8F1D;
             }
 
             .btn-section-one:active {
 
-                background: #FB8F1D;
-                color: #FFFFFF;
+                background: #FFFFFF;
+                color: #FB8F1D;
             }
         }
 
@@ -85,33 +102,31 @@ main {
             background-image: url("./img-main/thousand-01\ 1.svg");
             width: 506px;
             height: 483px;
+            background-repeat: no-repeat;
+            background-size: contain;
         }
     }
 
-
     .section-main-two {
+        margin-top: 150px;
         display: flex;
-        justify-content: space-between;
-
-        width: 1206px;
-        height: 534px;
+        justify-content: space-around;
 
         .img-main-two {
             background-image: url('./img-main/Thousand-02\ 2\ \(2\).svg');
             width: 659px;
             height: 534px;
+            background-repeat: no-repeat;
+            background-size: contain;
         }
 
         .content-main {
-
-            width: 540px;
-            height: 534px;
             display: flex;
             flex-direction: column;
+            margin: auto;
 
 
             nav {
-
 
                 h3 {
                     width: 350px;
@@ -129,27 +144,26 @@ main {
                 }
 
                 .btn-section-two {
-                    margin-top: 51px;
+
+                    font: 500 15px'Inter';
+                    color: #FFFFFF;
+
                     display: flex;
                     align-items: center;
                     justify-content: center;
 
-
-                    font: 500 15px'Inter';
-                    color: #FB8F1D;
-
-                    width: 132px;
                     height: 44px;
+                    width: 132px;
 
-
-                    border: 1px solid #FB8F1D;
+                    background: #FB8F1D;
                     border-radius: 8px;
+                    border: 1px solid #FB8F1D;
                 }
 
                 .btn-section-two:active {
 
-                    background: #FB8F1D;
-                    color: #FFFFFF;
+                    background: #FFFFFF;
+                    color: #FB8F1D;
                 }
 
             }

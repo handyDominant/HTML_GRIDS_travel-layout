@@ -7,21 +7,26 @@ $click = { //button characteristics //храниться кнопка, ее ха
     justify-content: center;
 }
 */
-body header .img-logo {
-  background-image: url("../travel-layout/img-header/logo.svg");
-  width: 41px;
-  height: 41px;
+header {
+  position: fixed;
+  width: 1240px;
+  margin-top: -210px;
 }
-body header .section-one {
+header .section-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 1200px;
-  height: 50px;
 }
-body header .section-one .right-header {
+header .section-one .img-logo {
+  background-image: url("../travel-layout/img-header/logo.svg");
+  width: 41px;
+  height: 41px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header .section-one .right-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,7 +34,7 @@ body header .section-one .right-header {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-body header .section-one .right-header nav {
+header .section-one .right-header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,20 +42,23 @@ body header .section-one .right-header nav {
       -ms-flex-align: center;
           align-items: center;
 }
-body header .section-one .right-header nav p {
+header .section-one .right-header nav p {
   margin-right: 34px;
   font: 400 16px "Inter";
   color: #B8BECD;
 }
-body header .section-one .right-header nav p:hover {
+header .section-one .right-header nav p:hover {
   text-decoration: underline;
 }
-body header .section-one .header-btn {
+header .section-one .header-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-body header .section-one .header-btn .btn-login {
+header .section-one .header-btn .btn-login {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,15 +75,11 @@ body header .section-one .header-btn .btn-login {
   border: 1px solid #FB8F1D;
   border-radius: 8px;
 }
-body header .section-one .header-btn .btn-Register:active {
-  background: #FFFFFF;
-  color: #FB8F1D;
-}
-body header .section-one .header-btn .btn-login:active {
+header .section-one .header-btn .btn-login:active {
   background: #FB8F1D;
   color: #FFFFFF;
 }
-body header .section-one .btn-register {
+header .section-one .btn-register {
   margin: 0 0 0 30px;
   font: 500 15px "Inter";
   color: #FFFFFF;
@@ -94,7 +98,7 @@ body header .section-one .btn-register {
   border-radius: 8px;
   border: 1px solid #FB8F1D;
 }
-body header .section-one .btn-register:active {
+header .section-one .btn-register:active {
   background: #FFFFFF;
   color: #FB8F1D;
 }
