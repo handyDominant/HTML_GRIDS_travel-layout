@@ -107,6 +107,7 @@ body {
     main {
         width: 1300px;
         margin: 230px 0px;
+
         .section-main-one {
             display: flex;
             justify-content: space-around;
@@ -388,11 +389,10 @@ body {
                 }
             }
         }
-
     }
 
     footer {
-        .section-footer-one{
+        .section-footer-one {
             display: none;
         }
     }
