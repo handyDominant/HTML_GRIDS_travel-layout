@@ -9,21 +9,23 @@ $click = { //button characteristics //храниться кнопка, ее ха
 */
 
 
-body {
+body {  /* The site SIZE*/
     width: 1640px;
     margin: auto;
 
-    header {
+    header {    /* */
+
+        
         position: fixed;
         width: 1240px;
         margin-top: -210px;
 
 
-        .section-one {
+        .section-one {  /* container ONE */
             display: flex;
             justify-content: space-around;
 
-            .img-logo {
+            .img-logo {     /* LOGOTIPE SIZE */
                 background-image: url('../travel-layout/img-header/logo.svg'); // Site logo is stored here // Тут первая картинка(Слево)
                 width: 41px;
                 height: 41px;
@@ -31,7 +33,7 @@ body {
                 background-size: contain;
             }
 
-            .right-header {
+            .right-header { /* COLUMN RIGHT container two (center the site) */
                 display: flex;
                 justify-content: space-between;
 
@@ -51,11 +53,11 @@ body {
                 }
             }
 
-            .header-btn {
+            .header-btn { /*  */
                 display: flex;
                 justify-content: space-between;
 
-                .btn-login {
+                .btn-login {    /* CLiCK Login in the site account*/
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -70,14 +72,14 @@ body {
                     border-radius: 8px;
                 }
 
-                .btn-login:active {
+                .btn-login:active {     /* CLICK ONE ACTION */
 
                     background: #FB8F1D;
                     color: #FFFFFF;
                 }
             }
 
-            .btn-register {
+            .btn-register {     /* CLICK ONE SIZE */
                 margin: 0 0 0 30px;
                 font: 500 15px'Inter';
                 color: #FFFFFF;
@@ -94,7 +96,7 @@ body {
                 border: 1px solid #FB8F1D;
             }
 
-            .btn-register:active {
+            .btn-register:active {  /* CLICK ONE ACTION */
                 background: #FFFFFF;
                 color: #FB8F1D;
             }

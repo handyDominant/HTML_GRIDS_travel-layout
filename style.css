@@ -7,30 +7,30 @@ $click = { //button characteristics //храниться кнопка, ее ха
     justify-content: center;
 }
 */
-body {
+body { /* The site SIZE*/
   width: 1640px;
   margin: auto;
 }
-body header {
+body header { /* */
   position: fixed;
   width: 1240px;
   margin-top: -210px;
 }
-body header .section-one {
+body header .section-one { /* container ONE */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-body header .section-one .img-logo {
+body header .section-one .img-logo { /* LOGOTIPE SIZE */
   background-image: url("../travel-layout/img-header/logo.svg");
   width: 41px;
   height: 41px;
   background-repeat: no-repeat;
   background-size: contain;
 }
-body header .section-one .right-header {
+body header .section-one .right-header { /* COLUMN RIGHT container two (center the site) */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,7 +54,7 @@ body header .section-one .right-header nav p {
 body header .section-one .right-header nav p:hover {
   text-decoration: underline;
 }
-body header .section-one .header-btn {
+body header .section-one .header-btn { /*  */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,7 +62,7 @@ body header .section-one .header-btn {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-body header .section-one .header-btn .btn-login {
+body header .section-one .header-btn .btn-login { /* CLiCK Login in the site account*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,11 +79,11 @@ body header .section-one .header-btn .btn-login {
   border: 1px solid #FB8F1D;
   border-radius: 8px;
 }
-body header .section-one .header-btn .btn-login:active {
+body header .section-one .header-btn .btn-login:active { /* CLICK ONE ACTION */
   background: #FB8F1D;
   color: #FFFFFF;
 }
-body header .section-one .btn-register {
+body header .section-one .btn-register { /* CLICK ONE SIZE */
   margin: 0 0 0 30px;
   font: 500 15px "Inter";
   color: #FFFFFF;
@@ -102,7 +102,7 @@ body header .section-one .btn-register {
   border-radius: 8px;
   border: 1px solid #FB8F1D;
 }
-body header .section-one .btn-register:active {
+body header .section-one .btn-register:active { /* CLICK ONE ACTION */
   background: #FFFFFF;
   color: #FB8F1D;
 }
@@ -149,20 +149,20 @@ body main .section-main-one div .all-items .block {
   grid-gap: 35px 30px;
 }
 body main .section-main-one div .all-items .block > *:nth-child(1) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
+ -ms-grid-row: 1;
+ -ms-grid-column: 1;
 }
 body main .section-main-one div .all-items .block > *:nth-child(2) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
+ -ms-grid-row: 1;
+ -ms-grid-column: 3;
 }
 body main .section-main-one div .all-items .block > *:nth-child(3) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
+ -ms-grid-row: 3;
+ -ms-grid-column: 1;
 }
 body main .section-main-one div .all-items .block > *:nth-child(4) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 3;
+ -ms-grid-row: 3;
+ -ms-grid-column: 3;
 }
 body main .section-main-one div .all-items .block div {
   font: 400 15px "Inter";
