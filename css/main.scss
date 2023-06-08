@@ -20,10 +20,12 @@ $click = { //button characteristics //храниться кнопка, ее ха
 */
 
 main {
+    /* the site center line  */
     width: 1300px;
     margin: 230px 0px;
 
     .section-main-one {
+        /* section one  */
         display: flex;
         justify-content: space-around;
 
@@ -74,6 +76,7 @@ main {
             }
 
             .btn-section-one {
+                /* click one */
                 margin-top: 51px;
                 font: 500 15px'Inter';
                 color: #FFFFFF;

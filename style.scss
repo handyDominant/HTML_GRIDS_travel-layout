@@ -106,11 +106,11 @@ body {  /* The site SIZE*/
 
 
 
-    main {
+    main {      /* the site center line  */
         width: 1300px;
         margin: 230px 0px;
 
-        .section-main-one {
+        .section-main-one {     /* section one  */
             display: flex;
             justify-content: space-around;
 
@@ -160,7 +160,7 @@ body {  /* The site SIZE*/
                     }
                 }
 
-                .btn-section-one {
+                .btn-section-one {  /* click one */
                     margin-top: 51px;
                     font: 500 15px'Inter';
                     color: #FFFFFF;
